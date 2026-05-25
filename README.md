@@ -1,4 +1,4 @@
-# 💰 Payroll Model — Carnaby Location
+# 💰 Payroll Model — Main Location
 
 ## Project Overview
 This payroll model was built to calculate bi-monthly staff compensation for a multi-department beauty salon in London. The model covers 27 staff members across 4 departments and processes approximately £22,500 per pay period.
