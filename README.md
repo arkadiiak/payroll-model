@@ -9,6 +9,7 @@ This payroll model was built to calculate bi-monthly staff compensation for a mu
 - Applies deductions where applicable
 - Summarises totals by department for finance reporting
 - Links to payment details (sort code, account, invoice number) for payroll processing
+- SQL schema and queries replicate this logic for scalable, database-driven reporting
 
 ## Departments Covered
 | Department | Staff Count | Pay Structure |
@@ -28,6 +29,7 @@ This payroll model was built to calculate bi-monthly staff compensation for a mu
 - Google Sheets / Microsoft Excel
 - Manual data entry from scheduling system (Zenoti)
 - Formula-based calculations (SUMIF, conditional formatting)
+- SQL (schema design, joins, window functions, aggregate queries)
 
 ## Skills Demonstrated
 - Payroll data management
@@ -35,3 +37,11 @@ This payroll model was built to calculate bi-monthly staff compensation for a mu
 - KPI bonus calculation logic
 - Structured data organisation
 - Finance reporting for operations management
+- SQL database design and query writing
+
+## SQL Implementation
+This project also includes a SQL version of the payroll logic (`schema.sql`, `queries.sql`), using synthetic data to demonstrate:
+- Relational schema design for technicians and monthly payroll records
+- Aggregate queries for department-level and location-level totals
+- Window functions for ranking top performers by period
+- Subqueries for identifying below-average performers
