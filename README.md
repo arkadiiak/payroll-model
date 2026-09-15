@@ -45,3 +45,16 @@ This project also includes a SQL version of the payroll logic (`schema.sql`, `qu
 - Aggregate queries for department-level and location-level totals
 - Window functions for ranking top performers by period
 - Subqueries for identifying below-average performers
+
+
+-----
+
+---
+
+## Python Implementation
+
+A Python version (`analyze_payroll.py`) generates a synthetic 27-person payroll dataset and analyzes it with pandas + SQLite, demonstrating:
+- Department-level payroll totals and average pay per period
+- KPI bonus distribution tracking across pay periods
+- Top-earner identification
+- Payroll visualisation by department (matplotlib)
